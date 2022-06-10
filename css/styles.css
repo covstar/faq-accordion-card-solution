@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans';
+    font-size: 1rem;
+}
+body{
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+main{
+    display: grid;
+        grid-template-columns: 67rem;
+    padding: 0rem 0 10rem;
+    justify-content: center;
+}
+h1{
+    font-weight: 700;
+    font-size: 1.9rem;
+    padding-bottom: 1.9rem;
+    color: hsl(238, 29%, 16%);
+}
+hr{
+    height: 1px;
+    background-color: hsl(240, 6%, 50%);
+    border-width: 0;
+    color: hsl(240, 6%, 50%) ;
+}
+/* content container */
+.container{
+    overflow: hidden;
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    padding: 3rem 3rem 5rem;
+    height: 30rem;
+}
+
+/* first container */
+.image-section{
+    position: relative;
+    width: 100%;
+}
+.image-section img{
+    width: 100%;
+}
+.background1 img{
+    position: absolute;
+    z-index: 0;
+    top: -22rem;
+    left: -37rem;
+    width: 60rem;
+}
+.background2 img{
+    display: none;
+}
+.woman-illustration1 img{
+    position: absolute;
+    top: -1rem;
+    left: -7.5rem;
+    width: 31rem;
+}
+.woman-illustration2 img{
+    display: none;
+}
+.box-illustration img{
+    position: relative;
+    width: 13rem;
+    top: 24rem;
+    left: -6.5rem;
+    z-index: 2;
+}
+
+
+/* second container */
+.text-section{
+    width: 100%;
+    padding-right: 4rem;
+}
+.div{
+    display: flex;
+}
+.first-div .one{
+    display: block;
+}
+.heading{
+    cursor: pointer;
+}
+.heading:hover{
+    color: hsl(14, 88%, 65%);
+}
+.para1 p.clicked, .para2 p.clicked, .para3 p.clicked, .para4 p.clicked, .para5 p.clicked{
+    font-weight: 700;
+}
+.ic1.rotate, .ic2.rotate, .ic3.rotate, .ic4.rotate, .ic5.rotate{
+    transform: rotate(180deg);
+}
+
+.dropdown p{
+    padding: .7rem 0;
+    font-weight: 500;
+}
+.icaret{
+    margin-left: auto;
+    padding-top: .4rem;
+    cursor: pointer;
+}
+.inner-content{
+   display: none;
+}
+
+/* footer */
+.attribution{
+    text-align: center;
+    padding-bottom: 3rem;
+    color: black;
+}
+.attribution a{
+    text-decoration: none;
+        color: white;
+}
+.attribution a:hover {
+    color: hsl(14, 100%, 90%);
+}

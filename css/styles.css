@@ -22,7 +22,7 @@ h1{
 }
 hr{
     height: 1px;
-    background-color: hsl(240, 6%, 50%);
+    background-color: grey;
     border-width: 0;
     color: hsl(240, 6%, 50%) ;
 }
